@@ -313,14 +313,18 @@ html, body {
 
 @media (max-width: 1186px) {
   .diamonds-wrap {
-    width: 200px;
-    height: 200px; }
+    width: 220px;
+    height: 220px; }
 
   .diamond {
     font-size: 27px; }
 
   .con {
     font-size: 26px; } }
+@media (max-width: 1138px) {
+  .diamonds-wrap {
+    width: 210px;
+    height: 210px; } }
 @media (max-width: 1056px) {
   .diamonds-wrap {
     width: 170px;
@@ -574,6 +578,14 @@ html, body {
     font-size: 23px;
     width: 100%;
     margin-top: 40px; } }
+@media (max-width: 500px) {
+  .head-wrap {
+    width: 180px;
+    height: 180px; }
+
+  .headshot-img {
+    width: 340px;
+    height: 340px; } }
 .contact {
   font-size: 30px;
   text-transform: uppercase;
@@ -597,5 +609,8 @@ html, body {
 @media (max-width: 501px) {
   .lower {
     text-transform: lowercase; } }
+@media (max-width: 400px) {
+  .lower {
+    font-size: 23px; } }
 
 /*# sourceMappingURL=style.css.map */

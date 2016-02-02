@@ -95,8 +95,8 @@ html, body {
 //media queries
 @media (max-width: 1186px) {
   .diamonds-wrap {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
   }
 
   .diamond {
@@ -107,6 +107,14 @@ html, body {
     font-size: 26px;
   }
 }
+
+@media (max-width: 1138px) {
+  .diamonds-wrap {
+    width: 210px;
+    height: 210px;
+  }
+}
+
 
 @media (max-width: 1056px) {
   .diamonds-wrap {
