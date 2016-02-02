@@ -1,0 +1,104 @@
+.content2 {
+	margin: 30px 90px;
+
+}
+
+.r1 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+    align-items: center;
+}
+
+.site-1 {
+	background-image: url(../images/color-stories1.jpg);
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	width: 400px;
+  	height: 300px;
+  	border: 5px solid #231f20;
+}
+
+.site-text {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+    align-items: center;
+	text-align: center;
+	width: 45%;
+	height: 400px;
+	font-family: $jose;
+	font-size: 25px;
+}
+
+.site-2 {
+	background-image: url(../images/blog.jpg);
+	width: 500px;
+	margin-left: 30px;
+}
+
+//media queries 
+
+@media (max-width: 955px) {
+
+	.content2 {
+		margin: 10px 20px;
+	}
+
+	.site-text {
+		font-size: 19px;
+		margin-left: 30px;
+	}
+
+	.site-text2 {
+		margin-right: 30px;
+	}
+}
+
+@media (max-width: 630px) {
+	.r1 {
+	-webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+	}
+
+	.r2 {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-webkit-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+
+	.site-1 {
+		margin: 20px auto;
+		width: 100%;
+		background-position: top;
+	}
+
+	.site-2 {
+		margin: 0 auto;
+	}
+
+	.site-text {
+		margin: 0 auto;
+		font-size: 25px;
+		width: 100%;
+		height: 300px;
+	}
+
+}
