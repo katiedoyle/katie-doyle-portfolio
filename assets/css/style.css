@@ -404,7 +404,7 @@ html, body {
   text-decoration: none; }
   .footer-logo:hover {
     transition: 0.25s;
-    color: #67E6EC; }
+    color: #80D6D6; }
 
 .fa {
   margin-left: 10px;
@@ -412,7 +412,7 @@ html, body {
   color: white; }
   .fa:hover {
     transition: 0.25s;
-    color: #67E6EC; }
+    color: #80D6D6; }
 
 @media (max-width: 630px) {
   .footer {
@@ -574,5 +574,28 @@ html, body {
     font-size: 23px;
     width: 100%;
     margin-top: 40px; } }
+.contact {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center; }
+
+.con1, .con2, .con3 {
+  font-family: "Josefin Slab", serif;
+  margin: 40px;
+  color: black; }
+
+.fa2 {
+  font-size: 30px;
+  color: black; }
+  .fa2:hover {
+    color: #80D6D6; }
+
+.lower {
+  font-weight: bold; }
+
+@media (max-width: 501px) {
+  .lower {
+    text-transform: lowercase; } }
 
 /*# sourceMappingURL=style.css.map */
